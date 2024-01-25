@@ -1,0 +1,176 @@
+/* General styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    
+font-family: Arial, sans-serif;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+/* Header styles */
+header {
+background-color: rgb(78, 124, 118);
+color: #fff;
+padding: 10px;
+}
+
+header h1 {
+    text-align: center; 
+font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    }
+
+header a {
+color: #fff;
+text-decoration: none;
+}
+
+/* Navigation styles */
+nav {
+background-color: rgb(46, 54, 90);
+padding: 10px;
+}
+
+nav ul {
+display: flex;
+justify-content: space-between;
+}
+
+nav li {
+margin-right: 10px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 5px;
+border-radius: 5px;
+}
+
+nav a:hover {
+background-color: #fff;
+color: #555;
+}
+
+/* Product list styles */
+.product-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.product-list li {
+width: calc(33.33% - 10px);
+margin-bottom: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+text-align: center;
+}
+
+.product-list li img {
+max-width: 50%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.product-list li h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.product-list li p {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.product-list li button {
+display: block;
+margin: 0 auto;
+padding: 10px 20px;
+background-color: rgb(39, 108, 165);
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.product-list li button:hover {
+background-color: rgb(42, 143, 87);
+}
+
+/* Cart styles */
+.cart {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.cart-items {
+width: 60%;
+margin-right: 20px;
+}
+
+.cart-items li {
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+padding: 10px;
+background-color: rgb(238, 238, 238);
+border-radius: 5px;
+}
+
+.cart-items li button {
+background-color: #ccc;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.cart-items li button:hover {
+background-color: rgb(245, 6, 6);
+}
+
+.cart-total {
+width: 30%;
+text-align: right;
+font-size: 24px;
+font-weight: bold;
+}
+
+.clear-cart {
+display: block;
+margin: 20px auto 0;
+padding: 10px 20px;
+background-color: #555;
+color: #fff;
+}

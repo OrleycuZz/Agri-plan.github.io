@@ -1,0 +1,56 @@
+
+body {
+    background-color: hsl(0, 0%, 100%);
+  
+    }
+
+h1 
+
+{
+
+    color: rgb(74, 52, 197);
+    background-color: rgb(121, 139, 105);
+    border: 5px solid rgb(81, 140, 148);
+    margin: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
+    text-align: center
+}
+
+h2 {
+    color:red; 
+    font-family:im;
+    text-align: center; 
+    text-decoration: underline; 
+    margin: 50px;
+}
+x {
+    color:rgb(48, 58, 65); 
+    font-family: verdana;
+    margin: 20px;
+
+}
+    table, th, td {
+        border: 3px solid rgb(112, 87, 87);
+        border-collapse: collapse;
+        margin: 20px;
+        border-style:double;
+        
+     } th{
+            background-color: #96D4D4;
+            
+      }
+      x2 {
+        color:rgb(62, 50, 167); 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px;
+        text-indent : 10px;
+        text-decoration: underline;
+    }
+    x3 {
+        color:rgba(63, 11, 59, 0.993); 
+        font-family:'Times New Roman', Times, serif;
+        margin: 20px;
+        text-indent : 10px;
+        margin: 20px;
+    }
+    
